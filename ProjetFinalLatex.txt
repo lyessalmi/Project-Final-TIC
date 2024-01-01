@@ -1,0 +1,293 @@
+Projet Final TIC
+
+Groupe N°94
+
+Membre du groupe:
+
+1-SALMI Lyes 
+2-Ghreibi sara
+3-Khadidja Hamada
+
+
+Exercie sur Latex
+
+Le lien vers le document overleaf : 
+
+https://fr.overleaf.com/4153985488cnqdjbyttrpv#087b15
+
+
+
+%Debut de L'exercie
+
+\documentclass[12pt,a4paper]{report}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage{stanli}
+\usepackage{pgfpages}
+\usepackage{color}
+\usepackage{wrapfig}
+\usepackage{tabularx}
+\usepackage{array}
+
+
+\pgfpagesdeclarelayout{boxed}
+{
+	\edef\pgfpageoptionborder{0pt}
+}
+{
+	\pgfpagesphysicalpageoptions
+	{%
+		logical pages=1,%
+	}
+	\pgfpageslogicalpageoptions{1}
+	{
+		border code=\pgfsetlinewidth{2pt}\pgfstroke,%
+		border shrink=\pgfpageoptionborder,%
+		resized width=.9\pgfphysicalwidth,%
+		resized height=.9\pgfphysicalheight,%
+		center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+	}%
+}
+
+\pgfpagesuselayout{boxed}
+
+%page 1
+
+  \begin{document}
+
+            \begin{figure}
+                \flushleft
+                \includegraphics[width = 0.1\linewidth]{image3.png}   
+            \end{figure}
+
+    \begin{titlepage}
+    
+    \begin{center}
+  
+                \Huge
+                \textbf{\underline{\textcolor{blue}{Final Project TIC}}}
+                \vspace*{2.5cm}
+    
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width = 0.6\linewidth]{image1.jpeg}
+            \end{figure}
+
+    \end{center}
+
+                \vfill
+                \Large
+  
+            \begin{tabbing}
+		\hspace*{1em}\= \hspace*{8em} \= \kill
+                \> \textcolor{red}{\underline{\textbf{Membre du Groupe:}}} \>  \\\\
+                \> Nom Et Prenom:\>  \textbf{GHREIBI Sara} \\
+                \> Nom Et Prenom:\>  \textbf{HAMADA Khadidja} \\
+                \> Nom Et Prenom:\>  \textbf{SALMI Lyes} \\	
+            \end{tabbing}
+    
+    \end{titlepage}
+
+%page 2
+    
+    \newpage
+                \huge 
+                
+                \textcolor{blue}{
+                \underline{\textbf{Rapport sur Technologie de l'information }}}
+                \textcolor{blue}{
+                \underline{\textbf{ et de la communication(TIC) }}}
+                
+    \paragraph{ \Large \underline{\textcolor{red}{Dans la presentation ci dessous nous allons voir:}}}
+    
+            \begin{enumerate}
+                \item \textbf{La Definition de TIC }
+                \item \textbf{L'histoire de TIC}
+                \item \textbf{Les technologies liees à TIC:}
+                
+            \begin{itemize}[label=\textbullet]
+                \item \textbf{Git Et GitHup}
+                \item \textbf{Services Google}
+                \item \textbf{Microsoft outils}
+            \end{itemize}
+            
+                \item \textbf{Les avantages et les inconvénients des TIC }
+                \item \textbf{ les defis lies aux TIC}
+                \item \textbf{ Conclusion}
+            \end{enumerate}
+
+%page 3
+
+    \newpage
+
+            \underline{\textbf{\textcolor{red}{\Huge 1.C'est quoi TIC ?:}}}
+                 
+
+    \paragraph{Les Technologies de L'information et de la Communication englobent l'ensemble des outils,ressources,services,utilisées pour manipuler et communiquer l'information à travers les différentes technologies (Tel que les ordinateurs, les smartphones, les courriers electronique, les réseaux sociaux, les bases de données et lesservices de communication enligne).}
+         
+            
+            \begin{wrapfigure}{l}{0.3\textwidth}
+                \includegraphics[width =\linewidth]{image2.jpeg}  
+            \end{wrapfigure}
+    
+    
+    \paragraph{Ces dernières  ont révolutionné la façon dont nous communiquons, travaillons et accédons à l'information.Aujourd'hui elles continuent de jouer un rôle essentiel dans notre vie quotidienne.Elles sont de plus en plus utilisées dans le monde professionnel, les services Google et Microsoft offrent une large gamme d'outils qui facilitent la communication et la collaboration entre les membres d'une équipe, peu importe le moment et l'emplacement géographique.}
+
+%page4
+
+    \newpage
+
+            \underline{\textbf{\textcolor{red}{\huge 2.L'historique des TIC :}}}
+
+    \paragraph{L'évolution des technologies de l'information et de la communication, également connue sous le sigle TIC, a une longue histoire s'étalant sur plusieurs siècles. Cependant, le véritable développement des TIC s'est manifesté au cours des dernières décennies, marqué par l'émergence de l'informatique et d'Internet. Le schéma ci-dessous offre un aperçu des moments clés de cette évolution des TIC}:
+
+
+            \begin{table}[h]
+            \begin{tabular}{|p{1.5cm}|p{10cm}|}
+                \hline
+                \textbf{Années} & \textbf{Événements} \\ 
+                \hline
+                \textbf{1837} & Invention du télégraphe électrique par Samuel Morse. \\
+                \hline
+                \textbf{1876} & Invention du téléphone par Alexander Graham Bell. \\
+                \hline
+                \textbf{1946} & Création du premier ordinateur électronique, l'ENIAC. \\
+                \hline
+                \textbf{1969} & Création du réseau ARPANET, ancêtre d'Internet. \\
+                \hline
+                \textbf{1971} & Lancement du premier micro-ordinateur, l'Altair 8800. \\
+                \hline
+                \textbf{1983} & Développement du protocole TCP/IP,la base d'Internet. \\
+                \hline
+                \textbf{1991} & Lancement du World Wide Web par Tim Berners-Lee. \\
+                \hline
+     
+            \end{tabular}
+            \end{table}
+
+
+
+    \paragraph{Depuis cette époque, les technologies de l'information et de la communication (TIC) ont connu une croissance fulgurante, marquée par l'émergence de nouveaux dispositifs et technologies tels que les smartphones, les médias sociaux, le cloud computing, l'intelligence artificielle, entre autres. Les TIC ont profondément transformé nos modes de communication, de travail, d'accès à l'information et de divertissement. Elles ont également eu un impact significatif sur l'économie mondiale en créant de nouveaux secteurs industriels et en modifiant les paradigmes commerciaux. À l'heure actuelle, les TIC continuent de se développer à une cadence rapide, et leur influence s'étend de manière croissante à tous les aspects de notre vie quotidienne.}
+
+%page5
+
+    \newpage
+
+            \underline{\textbf{\textcolor{red}{\huge 3. Les technologies liees à TIC :}}}
+
+            \section*{\textcolor{cyan}{GIT et GitHub:}}
+            
+    \paragraph{Git est un logiciel de gestion de version qui permet entre autres de suivre les moindres changements dans des codes sources lors du développement d'un logiciel. Il permet aux développeurs de collaborer ensemble sur le même projet et de sauvegarder l'historique des moindres modifications ou changements.}
+
+
+            \begin{figure}[!h]
+                \centering
+                \includegraphics[width = 0.4\linewidth]{image4.png}
+            \end{figure}
+    
+    \paragraph{GitHub quant a lui c'est une plate-forme web basée sur Git, offrant de nombreux avantages et fonctionnalités supplémentaire telle que la gestion de projet, le suivie des versions ou des problèmes ou difficultés que rencontrent les développeurs et facilitent la coloration entre les membres d'une équipe, la contribution ouverte, et permet un contrôle efficace du code source.}
+
+%page6
+
+    \newpage
+             
+            \section*{\textcolor{cyan}{Services Google:}}
+             
+    \paragraph{Les services Google c'est une gamme de produits et de plateformes gratuites accessibles par tout le monde propose par la société Google. Ces services comprennent différentes categories telles que:}
+
+            \begin{itemize}[label=\textbullet]
+                \large
+                \item \textbf{Google Search: le moteur de recherche le plus connu au monde.}
+                \item \textbf{Gmail: la messagerie électronique.} 
+                \item \textbf{Google Maps: platforme de navigation et de cartographie.}
+                \item \textbf{Google Drive: service de stockage enligne.}
+                \item \textbf{Youtube : pour le partage de video.}
+                \item \textbf{Google Docs Sheets et slide: qui sont des suites bureautiques en ligne pour la création et collaboration de document, des feuilles de calcul et de présentation. }
+            \end{itemize}
+
+            \begin{figure}[b]
+                \centering
+                \includegraphics[width = 0.6\linewidth]{image6.png}
+            \end{figure}
+
+%page7
+
+    \newpage
+    
+            \section*{\textcolor{cyan}{Microsoft Outils:}}
+
+    \paragraph{Les outils Microsoft englobent une gamme étendue de logiciel et de servies qui sont accessibles a tous et facilitent la vie développes par Microsoft.Ces outils couvrent divers domaines, dont la bureautique comme Word, Excel, PowerPoint, Outlook, utile pour créer des documents, lettres, CV et des presentations.} 
+
+    \paragraph{Ou encore, on peut ajouter dans une autre branche le Système d'exploitation
+    le plus utilise pour sa simplicité qui est Windows Operting System.\\
+    On a aussi des logiciels open source comme Visuel Studio code qui est un éditeur de code source gratuit, simple, mais puissant et adapte pour le développement de logiciels sur diverses plates-formes comme Linux ou MacOS.}
+
+
+            \begin{figure}[b]
+                \centering
+                \includegraphics[width = 0.5\linewidth]{image7.png}
+            \end{figure} 
+
+%page8
+
+    \newpage
+
+            \underline{\textbf{\textcolor{red}{\huge 4.les avantages et les inconveniants: }}}
+
+    \paragraph{Les technologies de l’information et de la communication ont entraîné des changements majeurs dans la vie humaine, certains positifs, d’autres négatifs. parmi ces avantages et inconvénients les plus importantes sont}:
+
+            \begin{table}[h]
+            \begin{tabular}{|p{7cm}|p{7cm}|}
+                \hline
+                \textbf{Les avantages de TIC} & \textbf{Les inconvénients de TIC}\\ 
+                \hline
+                l'amélioration de la communication à l'échelle mondiale & la dépendance excessive aux écrans\\
+                \hline
+                l'efficacité accrue des processus commerciaux grâce à l'automatisation & L’accroissement des inégalités d’accès à la technologie, la cybercriminalité \\
+                \hline
+                l'accès rapide à l'information & les risques pour la vie privée due à la collecte massive de données\\
+                \hline
+                la facilitation de l’apprentissage en ligne & Les préoccupations environnementales liées à la production et au recyclage des dispositifs électroniques.\\
+                \hline
+                La création de nouvelles opportunités économiques et d’emploi dans le secteur technologique. & La diffusion rapide de fausses informations\\
+                \hline
+            \end{tabular}
+            \end{table}
+          
+ 
+            
+%page9
+
+    \newpage
+
+            \underline{\textbf{\textcolor{red}{\huge 5.Les defis liees aux TIC:}}}
+
+    \paragraph{Malgré les progrès réalisés, les TIC sont encore confrontées à de nombreux défis, parmi lesquels :}
+
+            \begin{itemize}[label=\textbullet]
+                \large
+                \item \textbf{la protection de la vie privée.}
+                \item \textbf{la sécurité des données.}
+                \item \textbf{la dépendance excessive aux technologies.}
+                \item \textbf{Le fossé numérique entre les personnes ayant accès aux TIC et celles qui n’en ont pas.}
+                \item \textbf{les problèmes sociaux tels que l’isolement}
+            \end{itemize}
+
+    \paragraph{Pour surmonter ces defis , les technologies de l’information et de la communication (TIC) doivent constamment s'adapter aux changements rapides dans la technologie et la société pour rester utiles et efficaces. Il est aussi  crucial de bien gérer l’utilisation des TIC et de mettre en place des règles de sécurité et d’inclusion pour tout le monde.}
+    
+ 
+%page10
+
+    \newpage
+
+            \underline{\textbf{\textcolor{red}{\huge 6. Conclusion Du Rapport:}}}
+
+    \paragraph{Pour conclure les TIC (Technologies de l'Information et de la Communication) ont révolutionné notre société en facilitant l'accès à l'information et en améliorant notre communication. Les différentes technologies liées au tic telles que services Google, Microsoft outils, Git et GitHub ont joué un rôle crucial dans ce progrès technologique. Cependant, leur impact sur la société est controversé, avec des préoccupations croissantes concernant la protection de la vie privée et la dépendance à la technologie. Malgré cela, les perspectives d'avenir pour les TIC sont passionnantes, avec des développements tels que l'intelligence artificielle et la réalité virtuelle qui promettent de continuer à transformer notre monde de manière positive. Il est donc important de continuer à surveiller et à encadrer soigneusement l'utilisation des TIC afin de maximiser leurs avantages pour la société. }
+
+
+                \vspace{2cm}
+            \flushright \Huge \textcolor{red}{ End}
+
+  \end{document}
